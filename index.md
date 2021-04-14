@@ -1,6 +1,6 @@
 # Ytb-lives-sentiment-analysis
 
-[PT] Esse script busca os dados de engajamento de lives no youtube e faz análise de sentimento.
+[PT] Esse script busca os dados de engajamento de lives no youtube e faz análise de sentimento.<br>
 [EN] This script retrieves the engagement data from streams on youtube and does sentiment analysis.
 
 ## Detalhamento:
