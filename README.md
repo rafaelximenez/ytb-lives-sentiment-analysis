@@ -17,3 +17,6 @@
     VIDEO_ID = '[VIDEO_ID]'
     MAX_RESULTS = 100
 ```
+
+### Links:
+[![Badge](https://img.shields.io/static/v1?label=Acesse&message=o%20site&color=yellowgreen)](https://strapbooll.github.io/ytb-lives-sentiment-analysis/)
