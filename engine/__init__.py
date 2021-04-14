@@ -1,7 +1,9 @@
 from engine.services.sentiment_analysis import GNaturalLanguage
 from engine.services.ytb                import Youtube
 import pandas as pd
+import gcsfs
 import re
+import os
 
 scores = []
 magnitudes = []
@@ -49,5 +51,5 @@ class Lives:
             "scores": scores,
             "magnitudes": magnitudes,
         })
-        print(df_live_details)
-        print(df_comments)
+        df_live_details.to_csv(f'gs://{os.environ["BUCKET_NAME"]}/rxmz-ytb-live/ytb_live_details.csv', index=False)
+        df_comments.to_csv(f'gs://{os.environ["BUCKET_NAME"]}/rxmz-ytb-live/ytb_live_comments.csv', index=False)

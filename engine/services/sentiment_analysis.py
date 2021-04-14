@@ -2,8 +2,7 @@ from google.cloud import language_v1
 import os
 
 class GNaturalLanguage:
-    def __init__(self):
-        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
+    def __init__(self):        
         self.client = language_v1.LanguageServiceClient()
     
     def sentiment_analysis(self, text):        

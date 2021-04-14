@@ -2,3 +2,4 @@ pandas
 re
 requests
 google-cloud-language
+gcsfs
