@@ -1,4 +1,5 @@
-__pycache__
 engine/services/__pycache__
+engine/__pycache__
+__pycache__
 config.py
 *.json
